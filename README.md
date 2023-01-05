@@ -10,7 +10,7 @@ Data Analysis and Visualization
 ## Excel Sheet Editing
   Before we begin analysis, there are a few changes I made to the Excel file to make querying and visualization easier. First, I used the TEXT function such as =TEXT(E2,"dddd"), =TEST(E2,"mmmm"), =TEST(E2,"yyyy") to pull the Day Name, Month Name, and Year from the date column. Then, I used the HOUR function to pull only the hour from the time into its own column. Finally, I used an IFS function to group each row into a time period based on the hour column such as =IFS(AND(J2>=6,J2<12)=TRUE,"Morning",AND(J2>=12,J2<18)=TRUE,"Afternoon",AND(J2>=18,J2<24)=TRUE,"Evening")
   
-  
+![Excel Sheet](https://user-images.githubusercontent.com/120590361/210855780-e615ce0f-22e4-4900-b820-772f79a0248d.png)
 
 ## Data Analysis
 ## Pizza Restaurant Data Analysis and Visualization
